@@ -1,0 +1,7 @@
+for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            if (entry.getValue() > maxVal) {
+                maxVal = entry.getValue();
+                maxKey = entry.getKey();
+            }
+        }
+#maxvalinhashmap

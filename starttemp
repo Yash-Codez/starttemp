@@ -18,4 +18,12 @@ public class solution{
             int absB = Math.abs(b);
             return absA - absB;
         });
+//check intersection of set
+ 
+            // Find intersection
+            queenSet.retainAll(kingSet);
+
+            // Output intersection size
+            System.out.println(queenSet.size());
+        }
 

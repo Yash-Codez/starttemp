@@ -11,3 +11,11 @@ public class solution{
         }
     }
 }
+//sort irrespectiveofsign
+
+        Arrays.sort(arr, (a, b) -> {
+            int absA = Math.abs(a);
+            int absB = Math.abs(b);
+            return absA - absB;
+        });
+

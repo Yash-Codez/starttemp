@@ -30,3 +30,10 @@ public class solution{
             System.out.println(queenSet.size());
         }
 
+        // TreeMap to keep sorted order of keys
+        Map<Integer, List<Integer>> map = new TreeMap<>(); 
+
+        for (int i = 0; i < arr1.length; i++) {
+            map.putIfAbsent(arr1[i], new ArrayList<>());
+            map.get(arr1[i]).add(arr2[i]);
+        }

@@ -6,3 +6,6 @@
             arr[i][0] = x;
             arr[i][1] = i;
         }
+
+        // sort by value (arr[i][0])
+        Arrays.sort(arr, (a, b) -> Integer.compare(a[0], b[0]));

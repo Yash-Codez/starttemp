@@ -1,0 +1,10 @@
+int largest = 0, second = 0;
+            for (int i = 1; i < list.size(); i++) {
+                int gap = list.get(i) - list.get(i - 1) - 1;
+                if (gap > largest) {
+                    second = largest;
+                    largest = gap;
+                } else if (gap > second) {
+                    second = gap;
+                }
+            }

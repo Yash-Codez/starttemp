@@ -1,0 +1,37 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+/* ---------- Type Aliases ---------- */
+using ll = long long;
+using vi = vector<int>;
+using vll = vector<ll>;
+using pii = pair<int,int>;
+using pll = pair<ll,ll>;
+
+/* ---------- Constants ---------- */
+const ll INF = 1e18;
+const int MOD = 1e9 + 7;
+
+/* ---------- Fast IO ---------- */
+#define fast_io ios::sync_with_stdio(false); cin.tie(nullptr)
+
+/* ---------- Input Helpers ---------- */
+#define read(v) for(auto &x : v) cin >> x
+#define print(v) for(auto &x : v) cout << x << " "; cout << '\n'
+
+/* ---------- Solve Function ---------- */
+void solve() {
+    // Write problem logic here
+}
+
+/* ---------- Main ---------- */
+int main() {
+    fast_io;
+
+    int t = 1;
+    cin >> t;          // comment this if single test case
+    while (t--) {
+        solve();
+    }
+    return 0;
+}
